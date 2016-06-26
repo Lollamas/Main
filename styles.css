@@ -1,0 +1,224 @@
+  /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+body {
+  font-family: helvetica, sans-serif;
+  background: #EBEBE0;
+  font-size: 19px;
+  line-height: 1.3em;
+  margin: 0;
+  padding: 20px;
+
+}
+
+
+#header {
+  position: fixed;
+  z-index: 50000;
+  top: 20px;
+  left: 20px;
+}
+
+.name {
+  margin: 0 81px 0 0 !important;
+}
+
+.name span:hover {
+  cursor: pointer;
+}
+
+.name .selected {
+    text-shadow: 2px 2px 2px #66FF99;
+}
+
+#header ul li {
+  display: inline-block;
+  *display: inline;
+  margin-left: 94px;
+}
+
+.pattern span:hover {
+  cursor: pointer;
+}
+
+.green span:hover {
+  cursor: pointer;
+}
+
+.green .selected {
+    text-shadow: 2px 2px 2px #33FFAD;
+}
+
+.pink span:hover {
+  cursor: pointer;
+}
+
+.pink .selected {
+    text-shadow: 2px 2px 2px #FF33FF;
+}
+
+
+.content {
+  margin-top: 60px;
+}
+
+.about {
+  width: 500px;
+}
+
+.about a:link {
+  color: #000;
+  text-decoration: none;
+
+}
+.about .selected {
+  text-decoration: none;
+  color: #00FF00;
+}
+
+.store span:hover {
+  cursor: pointer;
+}
+
+.store .selected {
+    text-shadow: 2px 2px 2px #AA67FF;
+}
+
+.buy {
+  position: relative;
+}
+
+.item img:hover {
+  cursor: pointer;
+}
+
+.item {
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  top: 20%;
+  padding: 40 0 40 0px;
+  zoom: 1;         /* for IE */
+  display*:inline; /* for IE */
+}
+
+
+
+.sold {
+  font-size: 13px;
+  color: #000;
+  top: 50%;
+  text-shadow: 1.5px 1.5px 1.5px #AA67FF;
+
+}
+
+.work {
+  float: left;
+  position: relative;
+}
+
+.work:hover .textb {
+  display: block;
+}
+
+.work:hover .textp {
+  display: block;
+}
+
+.textb {
+  display: none;
+  position: absolute;
+  font-size: 13px;
+  line-height: 16px;
+  top: 10px;
+  left: 10px;
+  color: #000;
+  text-shadow: 1.5px 1.5px 1.5px #33FFAD;
+}
+
+.textp {
+  display: none;
+  position: absolute;
+  font-size: 13px;
+  line-height: 16px;
+  top: 10px;
+  left: 10px;
+  color: #000;
+  text-shadow: 1.5px 1.5px 1.5px #FF33FF;
+
+}
+
+.text {
+  display: none;
+  position: absolute;
+  font-size: 13px;
+  line-height: 16px;
+  top: 10px;
+  left: 10px;
+  color: #00FF00;
+}
+
+.gray{
+  color: #808080;
+}
+
+.m1 { 
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+.m2 { 
+  margin-top: 50px;
+  margin-left:75px;
+  margin-right: 75px;
+  margin-bottom: 20px;
+
+}
+
+
+.m3 { 
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+
+}
+
+.m4 { 
+  margin-top: 85px;
+  margin-left: 110px;
+  margin-right: 30px;
+  margin-bottom: 70px;
+
+}
+
+.m5 { 
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+
+}
+
+.m6 { 
+  margin-top: 120px;
+  margin-left: 150px;
+  margin-right: 5px;
+  margin-bottom: 100px;
+
+}
+
+.m7 { 
+  margin-top: 120px;
+  margin-left: 250px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+
+}
+
+
